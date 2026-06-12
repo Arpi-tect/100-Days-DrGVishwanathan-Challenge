@@ -1,0 +1,60 @@
+class SparseTable {
+public:
+    int n, maxLog;
+    vector<vector<int>> fMax, fMin;
+    vector<int> lg;
+
+    SparseTable(const vector<int>& data) {
+        n = data.size();
+        maxLog = 32 - __builtin_clz(n) + 1;
+        fMax.assign(n, vector<int>(maxLog));
+        fMin.assign(n, vector<int>(maxLog));
+        lg.assign(n + 1, 0);
+        for (int i = 2; i <= n; i++) lg[i] = lg[i >> 1] + 1;
+        for (int i = 0; i < n; i++) fMax[i][0] = fMin[i][0] = data[i];
+        for (int j = 1; j < maxLog; j++)
+            for (int i = 0; i + (1 << j) <= n; i++) {
+                fMax[i][j] = max(fMax[i][j-1], fMax[i+(1<<(j-1))][j-1]);
+                fMin[i][j] = min(fMin[i][j-1], fMin[i+(1<<(j-1))][j-1]);
+            }
+    }
+
+    int qMax(int l, int r) {
+        int k = lg[r-l+1];
+        return max(fMax[l][k], fMax[r-(1<<k)+1][k]);
+    }
+    int qMin(int l, int r) {
+        int k = lg[r-l+1];
+        return min(fMin[l][k], fMin[r-(1<<k)+1][k]);
+    }
+};
+
+class Solution {
+public:
+    long long maxTotalValue(vector<int>& nums, int k) {
+        int n = nums.size();
+        SparseTable st(nums);
+
+        // max-heap: {value, l, r}
+        using T = tuple<long long, int, int>;
+        priority_queue<T> pq;
+
+        // Seed: best subarray for each left endpoint = [l, n-1]
+        for (int l = 0; l < n; l++) {
+            long long val = st.qMax(l, n-1) - st.qMin(l, n-1);
+            pq.push({val, l, n-1});
+        }
+
+        long long ans = 0;
+        for (int i = 0; i < k; i++) {
+            auto [val, l, r] = pq.top(); pq.pop();
+            ans += val;
+            // Shrink r by 1 — next best subarray with same l
+            if (r > l) {
+                long long nval = st.qMax(l, r-1) - st.qMin(l, r-1);
+                pq.push({nval, l, r-1});
+            }
+        }
+        return ans;
+    }
+};
