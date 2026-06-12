@@ -3,22 +3,21 @@
 <!-- Animated Banner -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=100%20Days%20of%20Code&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Dr.%20G%20Vishwanathan%20Challenge%20%7C%20by%20Arpita&descAlignY=55&descSize=18" width="100%"/>
 
-<!-- Typing Animation -->
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=LeetCode+%7C+DSA+%7C+C%2B%2B+%7C+Java;Solving+1+problem+every+day+%F0%9F%94�;Consistency+is+the+key+%F0%9F%97%9D%EF%B8%8F;VIT+Bhopal+%7C+CSE+(Cloud+%26+Automation)" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=LeetCode+%7C+DSA+%7C+C%2B%2B+%7C+Java;Solving+1+problem+every+day+%F0%9F%94%A5;Consistency+is+the+key+%F0%9F%97%9D%EF%B8%8F;VIT+Bhopal+%7C+CSE+(Cloud+%26+Automation)" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- Badges Row -->
-![Days Completed](https://img.shields.io/badge/Days%20Completed-1%2F100-00D9FF?style=for-the-badge&logo=leetcode&logoColor=white)
+![Days Completed](https://img.shields.io/badge/Days%20Completed-3%2F100-00D9FF?style=for-the-badge&logo=leetcode&logoColor=white)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-5-success?style=for-the-badge&logo=checkmarx&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-C%2B%2B%20%7C%20Java-F34B7D?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)
 ![Challenge](https://img.shields.io/badge/Challenge-DrGVishwanathan-blueviolet?style=for-the-badge)
+![Streak](https://img.shields.io/badge/%F0%9F%94%A5%20Streak-3%20Days-orange?style=for-the-badge)
 
 <br/>
 
-<!-- Profile Views + GitHub Stats -->
 ![Profile Views](https://komarev.com/ghpvc/?username=Arpi-tect&label=Repo+Views&color=00D9FF&style=flat-square)
 [![GitHub followers](https://img.shields.io/github/followers/Arpi-tect?label=Follow&style=social)](https://github.com/Arpi-tect)
 
@@ -59,27 +58,44 @@ This repository tracks my **100-day coding journey** as part of the **Dr. G Vish
 
 <div align="center">
 
-<!-- Progress Bar Visual -->
+### 🚀 Overall Challenge Progress
+
+![Progress](https://progress-bar.xyz/3/?title=Day%203%20%2F%20100&width=700&color=00D9FF&suffix=%20Days)
+
 ```
-Progress  [█░░░░░░░░░░░░░░░░░░░]  1 / 100 Days
+🟦🟦🟦⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜⬜  3% Complete
 ```
 
-![Progress](https://progress-bar.xyz/1/?title=Challenge%20Progress&width=600&color=00D9FF)
+<br/>
+
+### 📆 Weekly Streak Calendar
+
+| Mon | Tue | Wed | Thu | Fri | Sat | Sun |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 🟩 | 🟩 | 🟩 | ⬜ | ⬜ | ⬜ | ⬜ |
 
 </div>
 
-### 🔥 Stats
+### 🔥 Stats Dashboard
 
 <div align="center">
 
-| Metric | Count |
-|--------|-------|
-| ✅ Easy | 1 |
-| 🟡 Medium | 0 |
-| 🔴 Hard | 0 |
-| **Total** | **1** |
+![Days](https://img.shields.io/badge/%F0%9F%93%85%20Days-3%2F100-00D9FF?style=for-the-badge)
+![Total](https://img.shields.io/badge/%F0%9F%93%A6%20Total%20Solved-5-9B59B6?style=for-the-badge)
+![Easy](https://img.shields.io/badge/%F0%9F%9F%A2%20Easy-3-success?style=for-the-badge)
+![Medium](https://img.shields.io/badge/%F0%9F%9F%A1%20Medium-1-yellow?style=for-the-badge)
+![Hard](https://img.shields.io/badge/%F0%9F%94%B4%20Hard-2-red?style=for-the-badge)
+![Streak](https://img.shields.io/badge/%F0%9F%94%A5%20Streak-3%20Days-orange?style=for-the-badge)
 
 </div>
+
+### 📈 Difficulty Distribution
+
+```
+🟢 Easy    ███████████████░░░░░  3
+🟡 Medium  █████░░░░░░░░░░░░░░░  1
+🔴 Hard    ██████████░░░░░░░░░░  2
+```
 
 ---
 
@@ -90,8 +106,12 @@ Progress  [█░░░░░░░░░░░░░░░░░░░]  1 / 10
 | Day | Problem | Difficulty | Topic | Language | Solution | LinkedIn |
 |-----|---------|-----------|-------|----------|---------|---------|
 | [Day 01](./solutions/Day01/) | [1. Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Arrays, HashMap | C++ | [View](./solutions/Day01/two_sum.cpp) | [Post](#) |
-| Day 02 | Coming Soon... | - | - | - | - | - |
-| Day 03 | Coming Soon... | - | - | - | - | - |
+| [Day 01](./solutions/Day01/) | [3691. Maximum Total Subarray Value II](https://leetcode.com/problems/maximum-total-subarray-value-ii/) | 🔴 Hard | Greedy, Sparse Table, Heap | C++ | [View](./solutions/Day01/max_subarray_value_II.cpp) | [Post](#) |
+| [Day 02](./solutions/Day02/) | [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Linked List, Two Pointers | C++ | [View](./solutions/Day02/reverse_linked_list.cpp) | [Post](#) |
+| [Day 02](./solutions/Day02/) | [3558. Number of Ways to Assign Edge Weights I](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/) | 🟡 Medium | BFS, Trees, Math | C++ | [View](./solutions/Day02/edge_weights_I.cpp) | [Post](#) |
+| [Day 03](./solutions/Day03/) | [268. Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | Math, Bit Manipulation | C++ | [View](./solutions/Day03/missing_number.cpp) | [Post](#) |
+| [Day 03](./solutions/Day03/) | [3559. Number of Ways to Assign Edge Weights II](https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/) | 🔴 Hard | Binary Lifting, LCA, Trees | C++ | [View](./solutions/Day03/edge_weights_II.cpp) | [Post](#) |
+| Day 04 | Coming Soon... | - | - | - | - | - |
 
 </div>
 
@@ -106,11 +126,15 @@ Progress  [█░░░░░░░░░░░░░░░░░░░]  1 / 10
  ┣ 📂 solutions
  ┃ ┣ 📂 Day01
  ┃ ┃ ┣ 📄 two_sum.cpp
- ┃ ┃ ┗ 📄 README.md       ← problem summary + approach
+ ┃ ┃ ┗ 📄 max_subarray_value_II.cpp
  ┃ ┣ 📂 Day02
- ┃ ┃ ┗ 📄 ...
+ ┃ ┃ ┣ 📄 reverse_linked_list.cpp
+ ┃ ┃ ┗ 📄 edge_weights_I.cpp
+ ┃ ┣ 📂 Day03
+ ┃ ┃ ┣ 📄 missing_number.cpp
+ ┃ ┃ ┗ 📄 edge_weights_II.cpp
  ┃ ┗ 📂 ...
- ┣ 📄 README.md            ← this file
+ ┣ 📄 README.md
  ┗ 📄 .gitignore
 ```
 
